@@ -58,12 +58,8 @@ json 구조는 기본적으로 다음과 같습니다.
 
 ```json
 {
-    "packetId": "<UUID>",
-    "method": "send",
-    "body": {
-        "room": "<ROOM ID OR ROOM NAME>",
-        "message": "<MESSAGE>"
-    },
+    "room": "<ROOM ID OR ROOM NAME>",
+    "message": "<MESSAGE>"
 }
 ```
 > method: send
